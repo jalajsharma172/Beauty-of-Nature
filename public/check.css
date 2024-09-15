@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.one{
+    background-color: yellow;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: blue;
+}
+.one{
+    background-color: black;
+    color: white;
+}
+.parent{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+section{
+    scroll-snap-align: start;
+}
