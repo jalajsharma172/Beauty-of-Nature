@@ -1,64 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>   
-    <link rel="stylesheet" href="style.css">
-    <title>Beauty Of Nature</title>
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+<link rel="stylesheet" href="test.css">
 </head>
 
 <body>
 
-    <div class="slider">
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" direction="vertical"
+    space-between="30" mousewheel="true">
 
+        <swiper-slide>
+            <div class="main">
+                <div class="image bright">
+                    <img src="img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">01</div>
+                    <div class="heading ">Origin of Ganga</div>
+                    <div class="sub-heading"><span>Starting from the pure Gangotri Glacier in the Himalayas, the Ganga flows 2,525 km, cutting through the heart of India on its journey</span></div>
+                    <div class="date " id="live">16 - September - 2024</div>
+                    <div class="date video ">
+                        <div class="watch"></div>
+                        Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
         
- <div class="main">
-    <div class="image bright">
-        <img src="img-1.jpg" alt="">
-    </div>
-    <div class="content">
-        <div class="index  ">01</div>
-        <div class="heading ">Amazing corners of the planet</div>
-        <div class="date " id="live"> 29 feb 2022</div>
-        <div class="date video ">
-            <div class="watch"></div>
-                Watch Promo
-        </div>
-    </div>
-</div>
+        
+        <swiper-slide>
+            <div class="main" id ="main3">
+                <div class="image">
+                    <img src="img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">02</div>
+                    <div class="heading ">Bhagirathi at its source. </div>
+                    <div class="sub-heading " id="live">The Bhagirathi River originates at Gaumukh, which is located at the foot of the Gangotri Glacier in the Garhwal Himalayas2</div>
+                    <div class="date " id="live">16 - September - 2024</div>
+                    
+                    <div class="date video ">
+                        <div class="watch"></div>
+                            Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
 
+        <swiper-slide>
+            <div class="main" id ="main3">
+                <div class="image">
+                    <img src="img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">03</div>
+                    <div class="heading ">Origin of Ganga</div>
+                    <div class="date " id="live"> </div>
+                    <div class="date video ">
+                        <div class="watch"></div>
+                            Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
 
-<div class="main">
-    <div class="image">
-        <img src="source-of-ganga-2.jpg" alt="">
-    </div>
-    <div class="content">
-        <div class="index  ">02</div>
-        <div class="heading ">Bhagirathi at its source. </div>
-        <div class="date " id="live">The Bhagirathi River originates at Gaumukh, which is located at the foot of the Gangotri Glacier in the Garhwal Himalayas2</div>
-        <div class="date video ">
-            <div class="watch"></div>
-                Watch Promo
-        </div>
-    </div>
-</div>
+        <swiper-slide>
 
-<div class="main" id ="main3">
-    <div class="image">
-        <img src="img-2.jpg" alt="">
-    </div>
-    <div class="content">
-        <div class="index  ">03</div>
-        <div class="heading ">Origin of Ganga</div>
-        <div class="date " id="live"> </div>
-        <div class="date video ">
-            <div class="watch"></div>
-                Watch Promo
-        </div>
-    </div>
-</div>
-             
-    </div>     
-    <script type="module" src="work.js"></script>
+            <div class="main" id ="main3">
+                <div class="image">
+                    <img src="img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">04</div>
+                    <div class="heading ">Origin of Ganga</div>
+                    <div class="date " id="live"> </div>
+                    <div class="date video ">
+                        <div class="watch"></div>
+                            Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
+
+        <swiper-slide>
+
+            <div class="main" id ="main3">
+                <div class="image">
+                    <!-- <video autoplay loop muted src="v1.mp4"></video> -->
+                    <img src="img-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">05</div>
+                    <div class="heading ">Origin of Ganga</div>
+                    <div class="date " id="live"> </div>
+                    <div class="date video ">
+                        <div class="watch"></div>
+                            Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
+
+        <swiper-slide>
+            <div class="main" id ="main3">
+                <div class="image">
+                    <!-- <video autoplay loop muted src="v2.mp4"></video> -->
+                    <img src="img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="index  ">06</div>
+                    <div class="heading ">Origin of Ganga</div>
+                    <div class="date " id="live"> </div>
+                    <div class="date video ">
+                        <div class="watch"></div>
+                            Watch Promo
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
+
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
 </body>
 
 </html>
+

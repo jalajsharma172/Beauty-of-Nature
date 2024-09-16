@@ -9,10 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Git hub\r => create a new repository on the command line\r echo \"# LOOK\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/jalajsharma172/Beauty-of-Nature.git\r git push -u origin main",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.0",
-    "git": "^0.1.5"
-  }
+    "git": "^0.1.5",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {}
 }
